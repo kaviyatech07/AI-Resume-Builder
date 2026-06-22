@@ -4,5 +4,20 @@ print("===================================")
 
 name = input("Enter your name: ")
 
-print("Welcome,", name)
-print("Let's explore career opportunities in AI and Data Science!")
+print("\nWelcome,", name)
+
+print("\nSelect your interest:")
+print("1. Artificial Intelligence")
+print("2. Data Science")
+print("3. Software Development")
+
+choice = input("Enter your choice (1/2/3): ")
+
+if choice == "1":
+    print("Recommended Career: AI Engineer")
+elif choice == "2":
+    print("Recommended Career: Data Scientist")
+elif choice == "3":
+    print("Recommended Career: Software Developer")
+else:
+    print("Invalid Choice")

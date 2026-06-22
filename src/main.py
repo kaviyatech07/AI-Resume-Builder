@@ -6,27 +6,30 @@ name = input("Enter your name: ")
 
 print("\nWelcome,", name)
 
-print("\nWhat do you enjoy most?")
-print("1. Building AI models")
-print("2. Working with data")
-print("3. Creating software applications")
+print("\nSelect your strongest skill:")
+print("1. Python")
+print("2. SQL")
+print("3. Problem Solving")
 
-choice = input("Enter your choice (1/2/3): ")
+skill = input("Enter your choice (1/2/3): ")
 
-if choice == "1":
-    print("\nRecommended Career:")
+if skill == "1":
+    print("\nRecommended Careers:")
     print("- AI Engineer")
     print("- Machine Learning Engineer")
+    print("- Python Developer")
 
-elif choice == "2":
-    print("\nRecommended Career:")
-    print("- Data Scientist")
+elif skill == "2":
+    print("\nRecommended Careers:")
     print("- Data Analyst")
+    print("- Database Developer")
+    print("- Business Intelligence Analyst")
 
-elif choice == "3":
-    print("\nRecommended Career:")
+elif skill == "3":
+    print("\nRecommended Careers:")
     print("- Software Developer")
-    print("- Full Stack Developer")
+    print("- System Analyst")
+    print("- Product Engineer")
 
 else:
-    print("\nInvalid choice. Please try again.")
+    print("\nInvalid choice.")

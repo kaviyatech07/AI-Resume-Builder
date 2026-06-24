@@ -34,7 +34,4 @@ elif skill == "3":
 
 else:
     print("\nInvalid choice.")
-if skill == "1":
-    ...
-elif skill == "2":
-    ...
+

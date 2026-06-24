@@ -13,7 +13,7 @@ print("2. SQL")
 print("3. Problem Solving")
 
 skill = input("Enter your choice (1/2/3): ")
-
+print("\nInterest Selected:", interest)
 if skill == "1":
     print("\nRecommended Careers:")
     print("- AI Engineer")

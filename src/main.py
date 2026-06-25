@@ -21,21 +21,20 @@ print("Hello", name + ", here are some career options for you:")
 if skill == "1":
     print("\n===== CAREER RECOMMENDATIONS =====")
    
- for career in careers["AI"]:
+    for career in careers["AI"]:
         print("-", career)
 
 elif skill == "2":
     print("\n===== CAREER RECOMMENDATIONS =====")
 
-    for career in careers["AI"]:
-        print("-", career)
-
+    for career in careers["Data Science"]:
+    print("-", career)
+    
 elif skill == "3":
     print("\n===== CAREER RECOMMENDATIONS =====")
 
-     for career in careers["AI"]:
+   for career in careers["Software Development"]:
         print("-", career)
-
 
 else:
     print("\nInvalid choice.")
